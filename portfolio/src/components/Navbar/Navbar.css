@@ -1,0 +1,32 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    border-style:solid;
+    border-radius: 9999px;
+    border-width: 3px;
+}
+
+a{
+    position: relative;
+    font-weight: 400;
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+    color: #dbdbdb;
+    padding: 1rem;
+    mix-blend-mode: difference;
+}
+
+.hover{
+    position: absolute;
+    border-radius: 9999px;
+    height: 100%;
+    width: 7rem;
+    background-color: black;
+}
