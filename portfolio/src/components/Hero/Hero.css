@@ -1,6 +1,10 @@
+
 .Hero{
-    height: 100vh;
+    height: calc(100vh - 60px);
+    width: calc(100vw- 2rem);
     position: relative;
+    cursor: none;
+
 }
 
 .Name-container{
@@ -11,8 +15,34 @@
     margin: 0;
 }
 
+.Name-container-Mask{
+    height: calc(100vh - 80px);
+    width: 100%;
+    mask-image: url('../../assets/Mask.svg');
+    mask-size: 40px;
+    background: #000000;
+    position: absolute;
+    mask-repeat: no-repeat;
+    color: black;
+    display: grid;
+    grid-template-columns: 0.27fr 0.5fr 1fr;
+    grid-template-rows: 0.77fr 2fr 1fr;
+}
+.Name-item{
+    color: #DC5F00;
+    grid-area: 2/2/3/3;
+}
+.Name-item span{
+    color: #EEEEEE;
+}
+.type-writer{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    font-size: 4rem;
+}
+
 .cursor{
-    position: fixed;
     border-radius: 9999px;
     height: 32px;
     width: 32px;

@@ -1,0 +1,73 @@
+.About-main{
+    height: 100vh;
+}
+
+.About-header{
+    height: 6rem;
+    color: #afa18f;
+    align-items: baseline;
+}
+  
+
+.mask{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #afa18f;
+      font-size: 64px;
+      line-height: 66px;
+      cursor: default;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    color: #afa18f;
+
+    font-size: 64px;
+    line-height: 66px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.item1{
+    align-self: flex-start;
+}
+.item2{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;    
+}
+
+.item2 p{
+    margin-top: -5rem;
+    
+}
+  
+.mask{
+    mask-image: url('../../assets/Mask.svg');
+    mask-size: 40px;
+    background: #ec4e39;
+    position: absolute;
+    color: black;
+    mask-repeat: no-repeat;
+
+}
+.mask span{
+    color: #EEEEEE;
+}
+
+
+
+
+
+span{
+    color: #ec4e39;
+}

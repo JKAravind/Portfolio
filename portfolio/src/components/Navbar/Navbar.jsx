@@ -27,9 +27,9 @@ export default function Navbar(){
         <div className="main">
             <nav className="navbar"
             onMouseLeave={Handlemouseexit}>
-                <a onMouseEnter={Handlemouse}>Home</a>
-                <a onMouseEnter={Handlemouse}>Skills</a>
-                <a onMouseEnter={Handlemouse}>Projects</a>
+                <a href="#Hero" onMouseEnter={Handlemouse}>Home</a>
+                <a  href="#About" onMouseEnter={Handlemouse}>Skills</a>
+                <a href="#Projects" onMouseEnter={Handlemouse}>Projects</a>
                 <a onMouseEnter={Handlemouse}>Contact</a>
 
                 <motion.div

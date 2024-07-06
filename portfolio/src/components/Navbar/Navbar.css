@@ -2,7 +2,7 @@
 .main{
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 10px;
 }
 .navbar{
     display: flex;
@@ -10,11 +10,13 @@
     border-style:solid;
     border-radius: 9999px;
     border-width: 3px;
+    margin-top: 10px;
 }
 
 a{
     position: relative;
     font-weight: 400;
+    text-decoration: none;
     display: block;
     cursor: pointer;
     z-index: 10;
