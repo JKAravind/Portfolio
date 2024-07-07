@@ -24,6 +24,10 @@ function App() {
     <section id='Projects'>
       <Projects/>
     </section>
+    <section id='Contact'>
+      <Contact/>
+    </section>
+   
 
 
       

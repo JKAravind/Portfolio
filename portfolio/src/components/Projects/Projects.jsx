@@ -17,7 +17,7 @@ const Projectslist = [
     },
     
     {
-        num:2,
+        num:"02",
         title:"BMR Calculator",
         gitLink:"https://github.com/JKAravind/bmi_cal",
         img:'https://img.freepik.com/premium-vector/cute-man-lifting-dumbbell-fitness-gym-cartoon-vector-icon-illustration-people-sport-icon-isolated_138676-5450.jpg?w=1480',
